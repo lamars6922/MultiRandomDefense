@@ -44,6 +44,12 @@
 * 몬스터 스폰은 코루틴을 이용하여 구현했습니다.
 * 몬스터는 오프젝트 풀에 저장되어 있어 스폰이 될 때 해당 라운드에 알맞게 능력치가 조정되서 나옵니다.
 
+![buffststem](https://user-images.githubusercontent.com/57030114/69810144-940e9280-122e-11ea-8a0d-98b3cbfeb88a.PNG)![buffsystem2](https://user-images.githubusercontent.com/57030114/69810150-9b35a080-122e-11ea-8368-ea75e0f1d9a0.PNG)
+
+* 토템UI을 구현했습니다. 토템에 능력은 힐, 공격력 버프, 방어력 버프, 지속 데미지, 이속 감소 능력을 가지고있습니다.
+* 토템은 drug&drop를 이용하여 소환할 수 있습니다.
+
+
 
 
 
