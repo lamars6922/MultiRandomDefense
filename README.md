@@ -47,11 +47,7 @@
 ![buffststem](https://user-images.githubusercontent.com/57030114/69810144-940e9280-122e-11ea-8a0d-98b3cbfeb88a.PNG)![buffsystem2](https://user-images.githubusercontent.com/57030114/69810150-9b35a080-122e-11ea-8368-ea75e0f1d9a0.PNG)
 
 * 토템UI을 구현했습니다. 토템에 능력은 힐, 공격력 버프, 방어력 버프, 지속 데미지, 이속 감소 능력을 가지고있습니다.
-* 토템은 drug&drop를 이용하여 소환할 수 있습니다.
+* 토템은 drug&drop를 이용하여 소환할 수 있습니다. (drugAndDrop handler 사용)
 * 토템은 다시 사용하기 위해서는 일정한 시간이 지나야하고 그것을 구현하기위해 코루틴을 이용했습니다.
 * 토템 범위에 있는 유닛들은 유닛 오브젝트에 있는 BuffSystem에 의해 효과가 발휘 됩니다.
-* 토템을 사용할 때, 해당 토템을 설명하는 UI가 나옵니다.
-
-
-
-
+* 토템의 정보를 보여주는 UI 함수 구현
